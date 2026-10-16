@@ -1,0 +1,35 @@
+name: Data error
+description: Something in the database is wrong or out of date
+title: "Data error: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us keep the night train data right! A short description is enough.
+  - type: input
+    id: train
+    attributes:
+      label: Which train or route?
+      description: For example the train number, or "Vienna – Hamburg"
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong?
+      description: For example a wrong time, a missing stop, or a train that no longer runs
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: What should it be?
+    validations:
+      required: false
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link to the operator's website or a timetable, if you have one
+    validations:
+      required: false

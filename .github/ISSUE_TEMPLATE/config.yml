@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: See the night train map
+    url: https://back-on-track.eu/night-train-map/
+    about: All the night trains in the database, on a map
+  - name: Contact Back-on-Track
+    url: https://back-on-track.eu/contact/
+    about: Questions that are not about the data
