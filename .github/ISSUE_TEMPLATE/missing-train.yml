@@ -1,0 +1,36 @@
+name: Missing night train
+description: A night train that isn't in the database yet
+title: "Missing train: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Tell us what you know. It doesn't have to be complete.
+  - type: input
+    id: route
+    attributes:
+      label: Where does it run?
+      description: For example "Brussels – Prague"
+    validations:
+      required: true
+  - type: input
+    id: operator
+    attributes:
+      label: Who runs it?
+      description: The operator, if you know it
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else?
+      description: Days of operation, main stops, start date, classes (seat, couchette, sleeper)
+    validations:
+      required: false
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link to the operator's website, a timetable or a news article
+    validations:
+      required: true

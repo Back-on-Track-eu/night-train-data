@@ -1,0 +1,19 @@
+{
+  "upload_type": "dataset",
+  "title": "Open Night Train Database (ONTD)",
+  "description": "<p>The Open Night Train Database is Back-on-Track Europe's database of night trains in Europe: routes, trips, stops, operators, calendars and travel classes, in a structure inspired by GTFS. Volunteers keep it up to date in a shared spreadsheet, and it powers the night train map on back-on-track.eu. This record archives a release of the GitHub repository Back-on-Track-eu/night-train-data.</p>",
+  "creators": [
+    {"name": "Back-on-Track Europe"}
+  ],
+  "contributors": [
+    {"name": "Antoniazzi, Giovanni", "affiliation": "Back-on-Track Europe", "type": "ProjectLeader"}
+  ],
+  "license": "odbl-1.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": ["night trains", "sleeper trains", "rail", "Europe", "open data", "GTFS", "climate"],
+  "related_identifiers": [
+    {"identifier": "https://back-on-track.eu/open-night-train-database/", "relation": "isDocumentedBy", "scheme": "url"},
+    {"identifier": "https://back-on-track.eu/night-train-map/", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}
