@@ -64,6 +64,7 @@ A night train emits a fraction of a plane per kilometre, and because you sleep o
 | See the night trains on a map | [Night train map](https://back-on-track.eu/night-train-map/) |
 | Read about the database | [Open Night Train Database](https://back-on-track.eu/open-night-train-database/) and the [editors' guide](https://back-on-track.eu/how-to-open-night-train-database-ontd/) |
 | Download the data | [`data/latest/`](data/latest/) (JSON files) |
+| Use the data in a website or app | `https://back-on-track-eu.github.io/night-train-data/data/latest/<file>.json` (stable address, open to any website) |
 | Browse the master spreadsheet | [Google Sheet](https://docs.google.com/spreadsheets/d/15zsK-lBuibUtZ1s2FxVHvAmSu-pEuE0NDT6CAMYL2TY/edit?usp=sharing) (read-only) |
 | Report a mistake or a missing train | [Open an issue](../../issues/new/choose) |
 | Help as a volunteer or developer | [CONTRIBUTING.md](CONTRIBUTING.md) and our [open tasks](https://back-on-track.eu/open-tasks/) |
@@ -105,6 +106,8 @@ The structure is inspired by [GTFS](https://gtfs.org/), the common format for pu
 
 > [!IMPORTANT]
 > The files in `data/` are overwritten twice a day, so please don't edit them by hand. If something is wrong, [open an issue](../../issues/new/choose) and we'll fix it in the sheet.
+
+Every file is also served at a stable address, for example [`https://back-on-track-eu.github.io/night-train-data/data/latest/routes.json`](https://back-on-track-eu.github.io/night-train-data/data/latest/routes.json). Any website or app can load it directly.
 
 Need a fresh copy right away? Run `python3 scripts/get_snapshot.py`, or download a single table from the hosted script:
 `https://script.google.com/macros/s/AKfycbwY9zNQFq0urCHsTstWRKxLe0SstWrwyY04tSuDIVb_yRCtTs_HDlRARS-5fqltgEZr/exec?table=<name>`, where `<name>` is one of the file names above without `.json`.
