@@ -10,6 +10,7 @@ contact:
     given-names: "Giovanni"
     affiliation: "Back-on-Track Europe"
 license: ODbL-1.0
+doi: "10.5281/zenodo.23426817"
 url: "https://back-on-track.eu/open-night-train-database/"
 repository-code: "https://github.com/Back-on-Track-eu/night-train-data"
 keywords:

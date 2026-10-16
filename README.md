@@ -17,6 +17,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/code-GPL--3.0-2271B3" alt="Code licence: GPL-3.0"></a>
   <a href=".github/workflows/daily_update_from_gsheet.yml"><img src="https://img.shields.io/badge/updated-twice%20a%20day-1D1E33" alt="Updated twice a day"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/volunteers-welcome-EAF044" alt="Volunteers welcome"></a>
+  <a href="https://doi.org/10.5281/zenodo.23426817"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23426817.svg" alt="DOI 10.5281/zenodo.23426817"></a>
 </p>
 
 <p align="center">
@@ -128,7 +129,11 @@ Decided by the Back-on-Track Europe board, 2026.
 
 ## 📝 How to cite
 
-From the 2026 edition on, every release of this repository is archived on [Zenodo](https://zenodo.org/) with a DOI, so the data can be cited in reports, articles and research. GitHub's **"Cite this repository"** button (in the sidebar) gives you the reference.
+Every release of this repository is archived on [Zenodo](https://zenodo.org/) with a DOI, so the data can be cited in reports, articles and research.
+
+> Back-on-Track Europe. *Open Night Train Database (ONTD)*. Zenodo. [https://doi.org/10.5281/zenodo.23426817](https://doi.org/10.5281/zenodo.23426817)
+
+This DOI always points to the latest edition. Each edition also has its own DOI, listed on Zenodo (2026.10: [10.5281/zenodo.23426818](https://doi.org/10.5281/zenodo.23426818)). GitHub's **"Cite this repository"** button in the sidebar gives the reference in other formats.
 
 ## 🤝 Who looks after this
 
