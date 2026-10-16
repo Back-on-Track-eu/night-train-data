@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "Open Night Train Database (ONTD)"
+authors:
+  - name: "Back-on-Track Europe"
+    website: "https://back-on-track.eu/"
+contact:
+  - family-names: "Antoniazzi"
+    given-names: "Giovanni"
+    affiliation: "Back-on-Track Europe"
+license: ODbL-1.0
+url: "https://back-on-track.eu/open-night-train-database/"
+repository-code: "https://github.com/Back-on-Track-eu/night-train-data"
+keywords:
+  - night trains
+  - sleeper trains
+  - rail
+  - Europe
+  - open data
+  - GTFS

@@ -17,6 +17,8 @@ In October 2026 the database lists **about 200 night train routes** run by **abo
 | See the night trains on a map | [Night train map](https://back-on-track.eu/night-train-map/) |
 | Read about the database | [Open Night Train Database](https://back-on-track.eu/open-night-train-database/) and the [editors' guide](https://back-on-track.eu/how-to-open-night-train-database-ontd/) |
 | Download the data | [`data/latest/`](data/latest/) (JSON files) |
+| Browse the master spreadsheet | [Google Sheet](https://docs.google.com/spreadsheets/d/15zsK-lBuibUtZ1s2FxVHvAmSu-pEuE0NDT6CAMYL2TY/edit?usp=sharing) (read-only) |
+| Cite the data | [How to cite](#how-to-cite) |
 | Report a mistake or a missing train | [Open an issue](../../issues/new/choose) |
 | Help as a volunteer or developer | [CONTRIBUTING.md](CONTRIBUTING.md) and our [open tasks](https://back-on-track.eu/open-tasks/) |
 | Design the night train network of 2032 | [Target Network tool](https://targetnetwork.back-on-track.eu/) ([about the project](https://back-on-track.eu/project-target-network-2032/)) |
@@ -63,6 +65,10 @@ The night train **map artwork** on back-on-track.eu is not part of this reposito
 
 Decided by the Back-on-Track Europe board, 2026.
 
+## How to cite
+
+From the 2026 edition on, every release of this repository is archived on [Zenodo](https://zenodo.org/) with a DOI, so the data can be cited in reports, articles and research. GitHub's "Cite this repository" button gives you the reference.
+
 ## Who looks after this
 
-Back-on-Track volunteers. Questions about the data: [open an issue](../../issues/new/choose). Anything else: [contact us](https://back-on-track.eu/contact/). Want to support our work? [Become a member](https://back-on-track.eu/become-a-member/) or [donate](https://back-on-track.eu/donate/).
+The database is coordinated by Giovanni Antoniazzi ([@giovanto](https://github.com/giovanto)), vicechair of Back-on-Track, together with many volunteers. Questions about the data: [open an issue](../../issues/new/choose). Anything else: [contact us](https://back-on-track.eu/contact/). Want to support our work? [Become a member](https://back-on-track.eu/become-a-member/) or [donate](https://back-on-track.eu/donate/).
